@@ -27,15 +27,40 @@ The goal of this project is to convert raw data into **interactive dashboards** 
 
 ---
 
-## 🗂️ Dataset Information
+## 📊 Dataset
 
-The dataset includes **60,000+ sales records**, covering:
+This project uses the **AdventureWorks** sales dataset, which includes multiple tables with comprehensive business data.
 
-- 🛒 Sales transactions (2019-2022)
-- 📦 Product details (Categories, Subcategories)
-- 👤 Customer information (Demographics, Education, Occupation)
-- 🌍 Geographic data (6 countries)
-- 📅 Time-based records (Daily, Weekly, Monthly trends)
+### 📁 Dataset Files:
+
+The dataset consists of the following tables:
+
+- **Calendar.csv** - Date dimension table (2020-2022)
+- **Customer.csv** - Customer demographics and information
+- **Product.csv** - Product details and specifications
+- **Product_Categories.csv** - Product category mapping
+- **Product_Subcategories.csv** - Subcategory details
+- **Sales_Data_2020.csv** - Sales transactions for 2020
+- **Sales_Data_2021.csv** - Sales transactions for 2021
+- **Sales_Data_2022.csv** - Sales transactions for 2022
+- **Territory.csv** - Geographic and regional data
+- **Returns.csv** - Product return information
+
+### 📥 Download Dataset:
+
+You can download the complete dataset from:
+
+**Option 1:**  [Download from Kaggle - AdventureWorks Dataset](https://www.kaggle.com/datasets/ukveteran/adventure-works)
+
+**Option 2:** Available in the `data/` folder of this repository
+
+### 📊 Dataset Statistics:
+
+- **Total Records**: 60,000+ sales transactions
+- **Time Period**: 2020-2022
+- **Geographic Coverage**: 6 countries (Australia, Canada, France, Germany, UK, USA)
+- **Product Categories**: Accessories, Bikes, Clothing
+- **Customer Records**: Multiple demographics including education and occupation data
 
 ---
 
@@ -45,7 +70,8 @@ The dataset includes **60,000+ sales records**, covering:
 ✅ Created relationships between multiple tables  
 ✅ Standardized data formats  
 ✅ Built calculated columns and DAX measures  
-✅ Applied data transformation using Power Query
+✅ Applied data transformation using Power Query  
+✅ Established star schema data model
 
 ---
 
@@ -153,7 +179,6 @@ The dataset includes **60,000+ sales records**, covering:
 - Implement advanced customer segmentation techniques
 - Add predictive analytics for inventory management
 
-  
 ---
 
 **Project Status**: ✅ Completed  
